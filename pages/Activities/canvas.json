@@ -183,20 +183,6 @@
                   "menuItems": {},
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                   "onClick": "{{navigateTo('Activities', {}, 'SAME_WINDOW')}}"
-                },
-                "groupButton2": {
-                  "label": "Itineraries",
-                  "iconName": "add-to-artifact",
-                  "id": "groupButton2",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 1,
-                  "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "onClick": "{{navigateTo('Itineraries', {}, 'SAME_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
@@ -206,27 +192,21 @@
               "dynamicTriggerPathList": [
                 {
                   "key": "groupButtons.groupButton1.onClick"
-                },
-                {
-                  "key": "groupButtons.groupButton2.onClick"
                 }
               ],
-              "leftColumn": 17,
+              "leftColumn": 20,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
                 },
                 {
                   "key": "groupButtons.groupButton1.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton2.buttonColor"
                 }
               ],
               "key": "awvgx3otqz",
               "orientation": "horizontal",
               "isDeprecated": false,
-              "rightColumn": 41,
+              "rightColumn": 44,
               "widgetId": "cgpvy3izhu",
               "minWidth": 450,
               "isVisible": true,
@@ -313,7 +293,7 @@
                 "dropdown"
               ],
               "topRow": 31,
-              "bottomRow": 38,
+              "bottomRow": 40,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
@@ -376,8 +356,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 40,
-              "bottomRow": 44,
+              "topRow": 42,
+              "bottomRow": 46,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
