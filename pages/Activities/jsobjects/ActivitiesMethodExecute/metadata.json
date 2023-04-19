@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "ActivitiesMethodExecute",
+    "pageId": "Activities",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Activities_ActivitiesMethodExecute",
+  "deleted": false,
+  "gitSyncId": "643db1f6ffc51924e503fe08_643f92800c188f3274ef82ff"
+}
