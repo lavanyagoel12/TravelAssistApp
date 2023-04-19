@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CheckUser",
+    "pageId": "Itineraries",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Itineraries_CheckUser",
+  "deleted": false,
+  "gitSyncId": "643db1f6ffc51924e503fe08_644075e924080a7be3591020"
+}

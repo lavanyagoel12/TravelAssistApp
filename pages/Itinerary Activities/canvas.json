@@ -46,7 +46,11 @@
               "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `TRAVELER`))(Select_User.options, Select_User.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 11.203125,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -81,6 +85,7 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "onOptionChange": "{{CheckUser.myFun1()}}",
               "minDynamicHeight": 4
             },
             {
@@ -737,7 +742,7 @@
                 }
               ],
               "displayName": "JSON Form",
-              "bottomRow": 73,
+              "bottomRow": 80,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Add an Activity to the Itinerary",

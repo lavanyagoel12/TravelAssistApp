@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CheckUser",
+    "pageId": "Activities",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Activities_CheckUser",
+  "deleted": false,
+  "gitSyncId": "643db1f6ffc51924e503fe08_644075c424080a7be359101a"
+}

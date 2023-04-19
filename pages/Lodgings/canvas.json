@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1040,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -46,7 +46,11 @@
               "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `HOST`))(Select_User.options, Select_User.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 11.203125,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -81,6 +85,7 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "onOptionChange": "{{CheckUser.myFun1()}}",
               "minDynamicHeight": 4
             },
             {
@@ -93,8 +98,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 100,
-              "bottomRow": 104,
+              "topRow": 106,
+              "bottomRow": 110,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -147,9 +152,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 97,
+              "originalTopRow": 106,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 101,
+              "originalBottomRow": 110,
               "buttonVariant": "PRIMARY"
             },
             {
@@ -336,7 +341,7 @@
               },
               "disabledWhenInvalid": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 95,
+              "originalBottomRow": 101,
               "useSourceData": false,
               "schema": {
                 "__root_schema__": {
@@ -571,7 +576,7 @@
               },
               "dynamicPropertyPathList": [],
               "displayName": "JSON Form",
-              "bottomRow": 95,
+              "bottomRow": 101,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Add Lodging",

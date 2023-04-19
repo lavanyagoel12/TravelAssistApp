@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CheckUser",
+    "pageId": "Lodgings",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Lodgings_CheckUser",
+  "deleted": false,
+  "gitSyncId": "643db1f6ffc51924e503fe08_644074ab24080a7be3591013"
+}

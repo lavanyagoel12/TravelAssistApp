@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 820,
+          "bottomRow": 850,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -166,8 +166,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 78,
-              "bottomRow": 82,
+              "topRow": 81,
+              "bottomRow": 85,
               "parentRowSpace": 10,
               "groupButtons": {
                 "groupButton1": {
@@ -220,9 +220,9 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 78,
+              "originalTopRow": 81,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 82,
+              "originalBottomRow": 85,
               "buttonVariant": "PRIMARY"
             },
             {
@@ -245,7 +245,11 @@
               "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `HOST`))(Select_User.options, Select_User.serverSideFiltering) }}",
               "animateLoading": true,
               "parentColumnSpace": 11.203125,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -280,34 +284,19 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "onOptionChange": "{{CheckUser.myFun1()}}",
               "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
-              "widgetName": "ChooseMethod",
-              "isFilterable": true,
-              "displayName": "Select",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
               "labelText": "What would you like to do with this activity?",
-              "searchTags": [
-                "dropdown"
-              ],
               "topRow": 31,
-              "bottomRow": 40,
-              "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
-              "hideCard": false,
-              "shouldScrollContents": true,
               "defaultOptionValue": "GREEN",
               "animateLoading": true,
-              "parentColumnSpace": 14.0625,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onOptionChange"
-                }
-              ],
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
@@ -317,30 +306,51 @@
                   "key": "borderRadius"
                 }
               ],
-              "labelPosition": "Top",
               "options": "[\n  {\n    \"label\": \"Update\",\n    \"value\": \"Update\"\n  },\n  {\n    \"label\": \"Delete\",\n    \"value\": \"Delete\"\n  }\n]",
               "placeholderText": "Select option",
               "isDisabled": false,
-              "key": "6ufqhut7q6",
-              "labelTextSize": "0.875rem",
               "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 22,
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "b8shbbya1x",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "minWidth": 450,
               "isVisible": true,
               "version": 1,
+              "onDropdownOpen": "",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 40,
+              "widgetName": "ChooseMethod",
+              "isFilterable": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "Select",
+              "searchTags": [
+                "dropdown"
+              ],
+              "bottomRow": 40,
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                },
+                {
+                  "key": "onDropdownOpen"
+                }
+              ],
+              "labelPosition": "Top",
+              "key": "6ufqhut7q6",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 22,
+              "widgetId": "b8shbbya1x",
+              "minWidth": 450,
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
-              "isLoading": false,
               "responsiveBehavior": "fill",
               "originalTopRow": 31,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 40,
               "onOptionChange": "{{ActivitiesMethodExecute.myFun1()}}",
               "minDynamicHeight": 4
             },
@@ -414,7 +424,7 @@
                 "group"
               ],
               "topRow": 11,
-              "bottomRow": 69,
+              "bottomRow": 72,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -436,7 +446,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 580,
+                  "bottomRow": 610,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -606,7 +616,7 @@
                       },
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 56,
+                      "originalBottomRow": 59,
                       "useSourceData": false,
                       "schema": {
                         "__root_schema__": {
@@ -743,7 +753,7 @@
                         }
                       ],
                       "displayName": "JSON Form",
-                      "bottomRow": 56,
+                      "bottomRow": 59,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
                       "title": "Modify An Activity",
@@ -807,7 +817,7 @@
               "originalTopRow": 11,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 69,
+              "originalBottomRow": 72,
               "minDynamicHeight": 10
             }
           ]
