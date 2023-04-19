@@ -1,0 +1,9 @@
+{
+  "ActivityName": "Name",
+  "ActivityLocation": "Boston",
+  "ActivityDescription": "Exploring Boston",
+  "ActivityCategory": "Outdoors",
+  "ActivityPrice": 50,
+  "ActivityAvailability": 10,
+  "ActivityUsername": "harold72"
+}

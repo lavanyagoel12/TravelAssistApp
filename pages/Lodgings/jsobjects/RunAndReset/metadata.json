@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RunAndReset",
+    "pageId": "Lodgings",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Lodgings_RunAndReset",
+  "deleted": false,
+  "gitSyncId": "643db1f6ffc51924e503fe08_64404c06dae4c302074d0aa1"
+}

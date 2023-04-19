@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/h/Activities/{{ActivityLocation.text.replace(\" \", \"%20\")}}/{{ActivityName.text.replace(\" \", \"%20\")}}"
+        "url": "web:4000/h/Activities/{{ActivityLocation.text.replace(/\\s+/g, '%20')}}/{{ActivityName.text.replace(/\\s+/g, '%20')}}"
       },
       "invalids": [],
       "messages": [],
@@ -52,8 +52,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "ActivityLocation.text.replace(\" \", \"%20\")",
-      "ActivityName.text.replace(\" \", \"%20\")"
+      "ActivityLocation.text.replace(/\\s+/g, '%20')",
+      "ActivityName.text.replace(/\\s+/g, '%20')"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

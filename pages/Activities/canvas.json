@@ -182,7 +182,7 @@
                   "index": 0,
                   "menuItems": {},
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "onClick": "{{navigateTo('Activities', {}, 'SAME_WINDOW')}}"
+                  "onClick": "{{navigateTo('Lodgings', {}, 'SAME_WINDOW')}}"
                 }
               },
               "type": "BUTTON_GROUP_WIDGET",
@@ -340,7 +340,7 @@
               "originalTopRow": 31,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 38,
+              "originalBottomRow": 40,
               "onOptionChange": "{{ActivitiesMethodExecute.myFun1()}}",
               "minDynamicHeight": 4
             },
@@ -348,7 +348,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "ButtonDoMethod",
-              "onClick": "{{ActivitiesDelete.run(() => showAlert('Deleted.','success'), () => showAlert('Make sure activity name nd location are filled in!','error'))}}",
+              "onClick": "{{ActivitiesDelete.run(() => showAlert('Deleted.','success'), () => showAlert('Make sure activity name and location are filled in! Also make sure this activity isn\\'t linked to other elements...','error'))}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -361,7 +361,7 @@
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
-              "topRowBeforeCollapse": 40,
+              "topRowBeforeCollapse": 42,
               "animateLoading": true,
               "parentColumnSpace": 14.0625,
               "dynamicTriggerPathList": [
@@ -378,14 +378,14 @@
                   "key": "borderRadius"
                 }
               ],
-              "text": "Execute",
+              "text": "Delete",
               "isDisabled": false,
               "key": "umimuzzg54",
               "isDeprecated": false,
               "rightColumn": 16,
               "isDefaultClickDisabled": true,
               "widgetId": "oztv90uhar",
-              "bottomRowBeforeCollapse": 44,
+              "bottomRowBeforeCollapse": 46,
               "minWidth": 120,
               "isVisible": false,
               "recaptchaType": "V3",
@@ -394,10 +394,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 40,
+              "originalTopRow": 42,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 44,
+              "originalBottomRow": 46,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -450,7 +450,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-                      "onSubmit": "{{ActivitiesPut.run(() => showAlert('Updated.','success'), () => showAlert('Make sure activity name nd location are filled in!','warning'))}}",
+                      "onSubmit": "{{ActivitiesPut.run(() => resetWidget(\"ModifyActivityForm\",true), () => showAlert('Make sure activity name and location are filled in!','warning'))}}",
                       "topRow": 1,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,

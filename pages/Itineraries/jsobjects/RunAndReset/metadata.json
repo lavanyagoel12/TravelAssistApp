@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "RunAndReset",
+    "pageId": "Itineraries",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Itineraries_RunAndReset",
+  "deleted": false,
+  "gitSyncId": "643db1f6ffc51924e503fe08_6440504fdae4c302074d0aad"
+}

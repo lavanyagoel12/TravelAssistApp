@@ -147,16 +147,16 @@
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
                 }
               },
-              "originalTopRow": 108,
+              "originalTopRow": 97,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 112,
+              "originalBottomRow": 101,
               "buttonVariant": "PRIMARY"
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-              "onSubmit": "{{LodgingsPost.run(() => {}, () => showAlert('Something went wrong while posting, try again!','error'))}}",
+              "onSubmit": "{{LodgingsPost.run(() => RunAndReset.myFun1(), () => showAlert('Something went wrong while posting, try again!','error'))}}",
               "topRow": 10,
               "type": "JSON_FORM_WIDGET",
               "animateLoading": true,
@@ -471,7 +471,8 @@
                       "labelTextSize": "0.875rem",
                       "label": "Lodging Phone",
                       "minNum": "1000000000",
-                      "maxNum": "1999999999"
+                      "maxNum": "1999999999",
+                      "errorMessage": "Must start with 1 and be 10 digits total"
                     },
                     "customField6": {
                       "children": {},
