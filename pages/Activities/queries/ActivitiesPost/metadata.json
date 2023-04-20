@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"ActivityName\": \"Name\",\n  \"ActivityLocation\": \"Boston\",\n  \"ActivityDescription\": \"Exploring Boston\",\n  \"ActivityCategory\": \"Outdoors\",\n  \"ActivityPrice\": 50,\n  \"ActivityAvailability\": 10,\n  \"ActivityUsername\": \"harold72\"\n}",
+      "body": "{\n  \"ActivityName\": \"Tree climbing\",\n  \"ActivityLocation\": \"California\",\n  \"ActivityDescription\": \"Climbing redwood trees.\",\n  \"ActivityCategory\": \"Outdoors\",\n  \"ActivityPrice\": 50,\n  \"ActivityAvailability\": 20,\n  \"ActivityUsername\": \"harold72\"\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],

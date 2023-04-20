@@ -1,9 +1,9 @@
 {
-  "ActivityName": "Name",
-  "ActivityLocation": "Boston",
-  "ActivityDescription": "Exploring Boston",
+  "ActivityName": "Tree climbing",
+  "ActivityLocation": "California",
+  "ActivityDescription": "Climbing redwood trees.",
   "ActivityCategory": "Outdoors",
   "ActivityPrice": 50,
-  "ActivityAvailability": 10,
+  "ActivityAvailability": 20,
   "ActivityUsername": "harold72"
 }

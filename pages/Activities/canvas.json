@@ -360,6 +360,7 @@
               "widgetName": "ButtonDoMethod",
               "onClick": "{{ActivitiesDelete.run(() => showAlert('Deleted.','success'), () => showAlert('Make sure activity name and location are filled in! Also make sure this activity isn\\'t linked to other elements...','error'))}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "dynamicPropertyPathList": [],
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -460,7 +461,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "borderColor": "#E0DEDE",
                       "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
-                      "onSubmit": "{{ActivitiesPut.run(() => resetWidget(\"ModifyActivityForm\",true), () => showAlert('Make sure activity name and location are filled in!','warning'))}}",
+                      "onSubmit": "{{ActivitiesPut.run(() => ResetSuccess.myFun1(), () => showAlert('Make sure activity name and location are filled in!','warning'))}}",
                       "topRow": 1,
                       "type": "JSON_FORM_WIDGET",
                       "animateLoading": true,
