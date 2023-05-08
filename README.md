@@ -1,3 +1,5 @@
+##### The Github with more details on this app and project is linked [here.](https://github.com/i-fisch/TravelAssist-Flask.git)
+
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
@@ -9,7 +11,3 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 ##### You can visit the application using the below link
 
 ###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/643db1f6ffc51924e503fe08/pages/643db1f6ffc51924e503fe0b) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/643db1f6ffc51924e503fe08/pages/643db1f6ffc51924e503fe0b/edit)
-
-
-##### The database desiging Github is linked below
-![](https://github.com/i-fisch/TravelAssist-Flask.git)
